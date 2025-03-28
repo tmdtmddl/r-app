@@ -7,8 +7,10 @@ const ProductItem = (item: ProductProps) => {
         <img src={imgs[0]} alt="" className="w-full h-80 object-cover" />
       </div>
       <div className="p-2.5">
-        <p>{name}</p>
-        <p>{desc}</p>
+        <div>
+          <p>{name}</p>
+          <p>{desc}</p>
+        </div>
       </div>
     </div>
   );
